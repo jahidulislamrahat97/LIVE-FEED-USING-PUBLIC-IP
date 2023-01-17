@@ -26,3 +26,7 @@ buffer.tobytes()
 ```
 
 ### [Reference](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
+
+### SSl Installation
+
+``` pip install pyopenssl ```
