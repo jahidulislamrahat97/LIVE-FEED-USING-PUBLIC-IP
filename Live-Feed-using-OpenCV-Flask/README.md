@@ -26,3 +26,13 @@ buffer.tobytes()
 ```
 
 ### [Reference](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
+
+### SSL Installation
+
+First install pyopenssl
+
+``` pip install pyopenssl  ```
+
+Using openssl create two files called fullchain.pem, privkey.pem and add them to the same folder where app.py is
+
+``` openssl req -x509 -newkey rsa:4096 -nodes -out fullchain.pem -keyout privkey.pem -days 365 ```
